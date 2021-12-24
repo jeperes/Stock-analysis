@@ -37,6 +37,8 @@ Advantages
 
 A big benefit of refactoring is definitely being able to improve the programming without adding new functionalities, but collecting the same information. Also, using less memory and running the macros really quick.
 
+![VBA_Challenge_time](https://github.com/jeperes/Stock-analysis/blob/main/Resources/VBA_Challenge_time.jpg)
+
 Disadvantages
 
 The disadvantages of refactoring are the process can take a lot of time to complete and even correct an error. And working with an existent data is risk because you may have to change some functions that was using in the original script.
