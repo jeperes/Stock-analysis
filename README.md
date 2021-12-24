@@ -12,19 +12,22 @@ The main goal is loop through the stocks making more efficient, easier to compre
 
 The first step of the refactoring was acreating three new arrays: tickerVolumes, tickerStartingPrices and tickerEndingPrices, using a tickerIndex equal to zero in order to access the current Index across the arrays I would be using.
 
-image arrays
-
 Next, I used for loops to initialize a tickerVolumes to zero and loop over through the spreadsheet rows. Then, ‘If statements’ was used to define the starting and Ending Price finding the values. Three columns were added to the spreadsheet showing the ticker, total daily volume and returns after loop through the arrays.
+
+![VBA_Challenge_1resouces](https://github.com/jeperes/Stock-analysis/blob/main/Resources/VBA_Challenge_1resouces.jpg)
 
 In order to organize the table, the formatting syntax was used, changing colors, numeric formatting and autofitting the values.
  
-formatting pic
+![VBA_Challenge_2resouces](https://github.com/jeperes/Stock-analysis/blob/main/Resources/VBA_Challenge_2resouces.jpg)
 
 ## Results
 
-The 2017 output show a promising and safe investments with positive returns. The investments Steve’s clients are most interest, DQ, have a high return percentage of 199.4%. However, in 2018, the investments are not successful compared to the previous year, with -62.6%.
+The 2017 output show a promising and safe investments with positive returns. The investments Steve’s clients are most interest, DQ, have a high return percentage of 199.4%. However, in 2018, the investments are not successful compared to the previous year, with -62.6%. The images below shows the table with all results.
 
-image tables
+![VBA_Challenge_2017](https://github.com/jeperes/Stock-analysis/blob/main/Resources/VBA_Challenge_2017.jpg)
+
+
+![VBA_Challenge_2018](https://github.com/jeperes/Stock-analysis/blob/main/Resources/VBA_Challenge_2018.jpg)
 
 # Summary
 
@@ -32,7 +35,7 @@ image tables
 
 Advantages
 
-A big benefit of refactoring is definitely being able to improve the programming without adding new functionalities but collecting the same information, also using less memory and running the macros really quick.
+A big benefit of refactoring is definitely being able to improve the programming without adding new functionalities, but collecting the same information. Also, using less memory and running the macros really quick.
 
 Disadvantages
 
