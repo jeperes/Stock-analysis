@@ -10,9 +10,9 @@ The main goal is loop through the stocks making more efficient, easier to compre
 
 ## Analysis 
 
-The first step of the refactoring was acreating three new arrays: tickerVolumes, tickerStartingPrices and tickerEndingPrices, using a tickerIndex equal to zero in order to access the current Index across the arrays I would be using.
+The first step of the refactoring was create three new arrays: tickerVolumes, tickerStartingPrices and tickerEndingPrices, using a tickerIndex equal to zero in order to access the current Index across the arrays I would be using.
 
-Next, I used for loops to initialize a tickerVolumes to zero and loop over through the spreadsheet rows. Then, ‘If statements’ was used to define the starting and Ending Price finding the values. Three columns were added to the spreadsheet showing the ticker, total daily volume and returns after loop through the arrays.
+Next, I used for loops to initialize a tickerVolumes to zero and loop over through the spreadsheet rows. Then, ‘If statements’ were used to define the starting and Ending Price finding the values. Three columns were added to the spreadsheet showing the ticker, total daily volume and returns after loop through the arrays.
 
 ![VBA_Challenge_1resouces](https://github.com/jeperes/Stock-analysis/blob/main/Resources/VBA_Challenge_1resouces.jpg)
 
